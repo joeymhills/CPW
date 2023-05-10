@@ -12,7 +12,7 @@ let Home = () => {
         <div className='container'>
             
             <div className='home background-tint'>
-                <div className="hero-wrap">
+                    <div className="hero-wrap">
                     <div className='hero-text'>
                         <a>Protect & Preserve Your Property</a>
                     </div>

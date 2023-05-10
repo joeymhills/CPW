@@ -100,20 +100,25 @@ body {
   background-color:rgba(34,34,68,.7);
   background-blend-mode: multiply;
   z-index:0;
+}
 
+@media (max-width:600px) {
+  .home{  
+  background-attachment: scroll;
+  background-position: 40%;
+  }
 }
 .hero-wrap {
  width: 1350px;
  display:flex;
  flex-direction: column;
  margin:1em;
- padding:1em;
-
 }
 
 .hero-text {
   max-height: 850px;
   max-width: 1000px;
+  padding-block:1em;
   text-align: left;
 }
 
