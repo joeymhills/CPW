@@ -1,8 +1,23 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import Navbar from "./NavBar.js"
+import Services from "./pages/Services.js"
+import Home from "./pages/Home.js"
+import About from "./pages/About.js"
+import { Route, Routes } from "react-router-dom"
+import './Styles.css'
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+function App() {
+  return (
+    <>
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </>
+  )
+}
+
+export default App
