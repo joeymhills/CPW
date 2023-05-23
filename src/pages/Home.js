@@ -3,7 +3,6 @@ import Services from './Services'
 import {useRef,useState} from 'react'
 import About from  './About'
 import Contact from './Contact'
-import Portfolio from './Portfolio'
 import logo from '../cpw-logo.svg'
 import miniLogo from "../cpw-mini.jpeg"
 import phone from "../img/phone.png"

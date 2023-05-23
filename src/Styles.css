@@ -656,6 +656,21 @@ form button {
     font-size: 25px;
     color: black;
   }
+  .contact-form-div {
+    width: 350px;
+  }
+  form input{
+    border-radius: 10px;
+    border-width:1px;
+    width:325px;
+    margin:1em;
+    height: 3em;;
+  }
+  form textarea {
+    margin:1em;
+    border-radius: 10px;
+    width:325px;
+  }
 }
 /*contact page*/
 
