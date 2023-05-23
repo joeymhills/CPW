@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b949163c.css",
+    "main.js": "/static/js/main.5c17ebfb.js",
+    "static/js/787.68f9a94a.chunk.js": "/static/js/787.68f9a94a.chunk.js",
+    "static/media/cpw-logo.svg": "/static/media/cpw-logo.c2f5fcd831c410df405710f8cf0058dd.svg",
+    "static/media/about-1.webp": "/static/media/about-1.87d4f621fd3c95b26e49.webp",
+    "static/media/driveway.webp": "/static/media/driveway.08492b485b0c02344db1.webp",
+    "static/media/cpw-mini.jpeg": "/static/media/cpw-mini.7729085bdeb0cdd22765.jpeg",
+    "static/media/deck-icon.png": "/static/media/deck-icon.ba96406566b2526a5ab6.png",
+    "static/media/patio.png": "/static/media/patio.5178f812a859aa22f52f.png",
+    "static/media/paving.png": "/static/media/paving.97c1e852100f49f0df55.png",
+    "static/media/house.png": "/static/media/house.88de7ba8460070a2b3b3.png",
+    "index.html": "/index.html",
+    "main.b949163c.css.map": "/static/css/main.b949163c.css.map",
+    "main.5c17ebfb.js.map": "/static/js/main.5c17ebfb.js.map",
+    "787.68f9a94a.chunk.js.map": "/static/js/787.68f9a94a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b949163c.css",
+    "static/js/main.5c17ebfb.js"
+  ]
+}
