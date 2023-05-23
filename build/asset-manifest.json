@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b949163c.css",
-    "main.js": "/static/js/main.5c17ebfb.js",
+    "main.js": "/static/js/main.9a4e6908.js",
     "static/js/787.68f9a94a.chunk.js": "/static/js/787.68f9a94a.chunk.js",
     "static/media/cpw-logo.svg": "/static/media/cpw-logo.c2f5fcd831c410df405710f8cf0058dd.svg",
     "static/media/about-1.webp": "/static/media/about-1.87d4f621fd3c95b26e49.webp",
@@ -13,11 +13,11 @@
     "static/media/house.png": "/static/media/house.88de7ba8460070a2b3b3.png",
     "index.html": "/index.html",
     "main.b949163c.css.map": "/static/css/main.b949163c.css.map",
-    "main.5c17ebfb.js.map": "/static/js/main.5c17ebfb.js.map",
+    "main.9a4e6908.js.map": "/static/js/main.9a4e6908.js.map",
     "787.68f9a94a.chunk.js.map": "/static/js/787.68f9a94a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b949163c.css",
-    "static/js/main.5c17ebfb.js"
+    "static/js/main.9a4e6908.js"
   ]
 }
