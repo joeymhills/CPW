@@ -24,7 +24,7 @@ let Contact = () => {
             <a>Get a Fast Quote</a>
         </div>
         <div className = "contact-form-div">
-            <form>
+            <form netlify>
                 <input type="text" placeholder="First name" required />
                 <input type="text" placeholder="Last name" required />
                 <input type="email" placeholder="Email" required />
