@@ -20,3 +20,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+build/asset-manifest.json
+build/index.html
+build/static/js/main.5c17ebfb.js
+build/static/js/main.5c17ebfb.js.LICENSE.txt
+build/static/js/main.5c17ebfb.js.map
