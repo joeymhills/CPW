@@ -77,6 +77,7 @@ let Home = () => {
                             </div>
                             <div className="quote-wrap">
                                 <a className="quote-btn" onClick={() => {
+                                if (!contactRef.current) return;
                 contactRef.current.scrollIntoView({behavior: "smooth"})}}>$ Get a quote</a>
                             </div>
                     </div>
