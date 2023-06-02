@@ -73,7 +73,7 @@ let Home = () => {
                 
                     <div className="call-btn-div">
                             <div>
-                                <a className={"call-btn"} href="tel:203-543-4756"><img src={phone} className="phone-pic"/> Click to call</a>
+                                <a className={"call-btn"} href="tel:475-355-7230"><img src={phone} className="phone-pic"/> Click to call</a>
                             </div>
                             <div className="quote-wrap">
                                 <a className="quote-btn" onClick={() => {
