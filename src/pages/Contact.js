@@ -1,5 +1,7 @@
-import { useForm } from 'react-hook-form'
-import emailjs from 'emailjs-com'
+import { useForm } from 'react-hook-form';
+import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import '../Styles.css'
 const Contact = () => {
     
     const {
@@ -34,6 +36,20 @@ const Contact = () => {
         console.log(e)}
         }
     
+        const toastifySuccess = () => {
+            toast('Form sent!', {
+                position: 'top-right',
+                autoClose: 5000,
+                hideProgressBar:true,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable:false,
+                className: 'submit-feedback success',
+                toastId: 'notifyToast'
+            });
+        }
+
+        const submitter = () => {handleSubmit(onSubmit); toastifySuccess()}
 
     return (
     <div className="contact-page">
@@ -41,7 +57,7 @@ const Contact = () => {
             <a>Get a Fast Quote</a>
         </div>
         <div className = "contact-form-div">
-            <form onSubmit={handleSubmit(onSubmit)} noValidate>
+            <form onSubmit={submitter} noValidate>
                 <input type="text"
                 name = "firstName" 
                 placeholder="First name" 
